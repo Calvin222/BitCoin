@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;900&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 100;
+}
+
+body {
+	text-align: center;
+	margin: 40vh 10vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+h1,
+p,
+a {	
+	color: white;
+	margin-bottom: 2rem;
+}
+
+h2,
+p,
+a {	
+	color: white;
+	margin-bottom: 2rem;
+}
+
+a:hover {
+	transform: scale(2);
+}
+
+#bitprice,
+a:hover,
+a:focus {
+	color: #38ef7d;
+}
+
+button {
+	width: 15vw;
+	height: 8vh;
+	color: #38ef7d;
+	border-radius: 50px;
+	margin-bottom: 2rem;
+}
+
+#bitprice,
+button,
+a:hover {
+	font-weight: 900;
+}
+
+p {
+	font-size: 1rem;
+}
+
+button,
+p,
+h1 {
+	letter-spacing: 2px;
+}
